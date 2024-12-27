@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    background: #333;
+    color: #fff;
+    margin: 0;
+    justify-content: center;
+}
+nav ul li {
+    padding: 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Add gap between cards */
+  max-width: 800px;
+  margin: 40px auto;
+
+}
+.project-card {
+    
+  
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+.project-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05); /* Slightly increase the size */
+    background-color: #33333319;
+    box-shadow: 0 8px 16px rgba(54, 63, 163, 0.2); /* Add a more prominent shadow */
+}
+
+
+.contact-box {
+    margin-left: 600PX;
+justify-content: center; 
+align-items: center; 
+ 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px 40px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .contact-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: whitesmoke;
+  }
+
+  .contact-box h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+
+  .contact-box p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+    transition: color 0.3s ease;
+  }
+
+  .contact-box p:hover {
+    color: #007BFF;
+  }
+
+  .contact-box .linkedin {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #0077b5;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .contact-box .linkedin:hover {
+    background-color: #005c8a;
+  }
